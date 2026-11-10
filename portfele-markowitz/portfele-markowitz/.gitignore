@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+# surowe dane cenowe – usuń tę linię, jeśli chcesz je wrzucić do repo
+data/*.csv
