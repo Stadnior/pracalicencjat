@@ -9,8 +9,7 @@ Skrypt:
   3. wyznacza granicę efektywną,
   4. zapisuje wagi i wyniki do Excela oraz wykres do PNG.
 
-Uruchomienie (z katalogu głównego repo):  python src/portfel_1_wig_markowitz.py
-Wymagane biblioteki: numpy, pandas, scipy, matplotlib, openpyxl
+biblio do pobrania::: numpy, pandas, scipy, matplotlib, openpyxl
 """
 import os
 import numpy as np
