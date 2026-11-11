@@ -4,7 +4,7 @@ Trzy niezależne portfele analizowane metodą Markowitza (long-only):
 
 | Skrypt | Portfel | Aktywa | Benchmark |
 |---|---|---|---|
-| `src/portfel_1_wig_markowitz.py` | GPW (PLN) | 24 spółki | brak (WIG20 niedostępny w danych) |
+| `src/portfel_1_wig_markowitz.py` | GPW (PLN) | 24 spółki | WIG20 (dane ze Stooq) |
 | `src/portfel_2_sp500_markowitz.py` | S&P 500 (USD) | 25 spółek | ^GSPC |
 | `src/portfel_3_etf_markowitz.py` | ETF (USD) | 7 funduszy | SPY |
 

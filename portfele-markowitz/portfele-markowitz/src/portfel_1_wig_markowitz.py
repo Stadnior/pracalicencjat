@@ -21,8 +21,8 @@ import matplotlib.pyplot as plt
 
 # ============================== PARAMETRY ==============================
 PLIK = "data/portfel_1_WIG_20261013_1548.csv"                      # ścieżka do pliku z cenami
-KOLUMNY_DO_USUNIECIA = ["SPL.WA", "WIG20.WA"]  # SPL.WA pusta; WIG20.WA ma tylko 1 wartość        # kolumny, które NIE są składnikami portfela
-BENCHMARK = None                  # kolumna z benchmarkiem (None = brak)
+KOLUMNY_DO_USUNIECIA = ["SPL.WA", "WIG20.WA"]  # SPL.WA pusta; WIG20.WA to benchmark, nie składnik portfela        # kolumny, które NIE są składnikami portfela
+BENCHMARK = "WIG20.WA"                  # kolumna z benchmarkiem (None = brak)
 RF = 0.0                               # roczna stopa wolna od ryzyka (0.04 = 4%)
 MAX_WAGA = 1.0                         # limit wagi jednego aktywa (1.0 = bez limitu, 0.2 = max 20%)
 DNI = 252                              # dni sesyjne w roku (annualizacja)
