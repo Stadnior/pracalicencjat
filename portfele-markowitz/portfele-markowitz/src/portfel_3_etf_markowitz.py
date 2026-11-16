@@ -12,7 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # ============================== PARAMETRY ==============================
-PLIK = "data/portfel_3_ETF_20261013_1548.csv"                      # ścieżka do pliku z cenami
+PLIK = "data/portfel_3_ETF_20261013_1548.csv"                     
 KOLUMNY_DO_USUNIECIA = []
 RF = 0.0                               # roczna stopa wolna od ryzyka (0.04 = 4%)
 MAX_WAGA = 1.0                         # limit wagi jednego aktywa (1.0 = bez limitu, 0.2 = max 20%)
