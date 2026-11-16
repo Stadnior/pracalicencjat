@@ -18,7 +18,6 @@ oraz granicę efektywną. Wyniki (wagi, parametry portfeli, wykres) trafiają do
 
 ```bash
 pip install -r requirements.txt
-# pliki CSV z cenami muszą być w katalogu data/
 python src/portfel_1_wig_markowitz.py
 python src/portfel_2_sp500_markowitz.py
 python src/portfel_3_etf_markowitz.py
