@@ -12,8 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # ============================== PARAMETRY ==============================
-PLIK = "data/portfel_2_SP500_20261013_1548.csv"                      # ścieżka do pliku z cenami
-KOLUMNY_DO_USUNIECIA = ["^GSPC"]   # indeks S&P 500 pomijam (portfel składa się ze spółek); usuń z listy, by dodać go jako aktywo
+PLIK = "data/portfel_2_SP500_20261013_1548.csv"                   
 RF = 0.0                               # roczna stopa wolna od ryzyka (0.04 = 4%)
 MAX_WAGA = 1.0                         # limit wagi jednego aktywa (1.0 = bez limitu, 0.2 = max 20%)
 DNI = 252                              # dni sesyjne w roku (annualizacja)
